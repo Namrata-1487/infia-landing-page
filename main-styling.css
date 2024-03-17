@@ -24,9 +24,6 @@ h1 {
 .section-1 ul {
   list-style: none;
 }
-/* .section-1 ul li {
-  margin: 0.25rem;
-} */
 .section-1 ul li::before {
   content: " ";
   background: #207d70;
@@ -68,10 +65,39 @@ h1 {
 
 .section-3 button {
   display: block;
-  width: 75%;
-  text-align: left;
+  text-align: center;
   background-color: white;
   border: 3px solid #207d70;
   border-radius: 20px;
-  padding: 0 20px 0 0;
+}
+.section-3 button a {
+  color: #207d70;
+  font-weight: 500;
+}
+.section-3 button a:hover {
+  color: #207d70;
+  font-weight: bold;
+  filter: drop-shadow(0px 1px #207d70);
+}
+.know img {
+  width: 15%;
+}
+.background {
+  background-image: url("./images/Rectangle\ 4.png");
+  background-repeat: no-repeat;
+}
+.details {
+  background-image: url("./images/Leaf\ \(1\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#two::after,
+#three:after {
+  content: "+";
+}
+.details h1 {
+  color: #0c4039;
+  /* font-size: 5rem !important; */
+  padding: 30px;
 }
