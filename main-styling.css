@@ -16,7 +16,7 @@ body {
 h1 {
   font-size: 3.5rem !important;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 55px;
 }
 .img {
   height: 100vh;
@@ -44,6 +44,7 @@ h1 {
   background-color: #207d70;
   border-radius: 20px;
   align-items: center;
+  width: 50%;
 }
 
 #contact .img-fluid,
@@ -107,4 +108,57 @@ h1 {
 }
 .card-heading {
   background-color: #207d70;
+}
+.section-6 .row,
+.section-7 .row {
+  column-gap: 30px;
+}
+.section-7 {
+  background-image: url("./images/Vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-7 .col-4 {
+  background-color: #e9f8f6;
+}
+#click-here {
+  background-color: #207d70;
+  border: 1px solid #207d70;
+  border-radius: 30px;
+}
+.section-8 {
+  background-color: #207d70;
+}
+
+.section-8 ol {
+  list-style: none;
+
+  counter-reset: my-awesome-counter;
+}
+.section-8 li {
+  counter-increment: my-awesome-counter;
+  margin: 0.25rem;
+}
+.section-8 li::before {
+  content: counter(my-awesome-counter);
+  background: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 3rem;
+  color: #207d70;
+  font-weight: 900;
+  font-size: xx-large;
+  text-align: center;
+  margin-right: 1rem;
+}
+.section-9 {
+  background-color: #0b3530;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 50% !important;
+  }
 }
