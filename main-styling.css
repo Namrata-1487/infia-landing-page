@@ -17,9 +17,10 @@ h1 {
   font-size: 3.5rem !important;
   font-weight: 900;
   line-height: 55px;
+  letter-spacing: -2px;
 }
 .img {
-  height: 100vh;
+  height: 125vh;
 }
 .section-1 ul {
   list-style: none;
@@ -44,12 +45,12 @@ h1 {
   background-color: #207d70;
   border-radius: 20px;
   align-items: center;
-  width: 50%;
+  width: 40% !important;
 }
 
 #contact .img-fluid,
 #learn-more .img-fluid {
-  width: 5%;
+  width: 10%;
   margin: 10px 10px;
 }
 .section-2 {
