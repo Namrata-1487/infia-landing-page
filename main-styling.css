@@ -157,7 +157,7 @@ h1 {
   background-color: #0b3530;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 985px) {
   .logo {
     width: 50% !important;
   }
