@@ -44,11 +44,11 @@
       </div>
     </div>
   </nav>
-  <div class="fill-info p-3 d-flex align-items-center justify-content-center ">
-    <form action="https://formsubmit.co/7fb90a87a11b2810f6147515225fe792" method="post" class="border-3 border border-dark bg-light w-75 text-center p-5 m-0"
-      id="myform">
-      <div class="uname d-flex justify-content-center row" placeholder="enter your requirement" ">
-        <div class="firstName p-0 col-6 align-items-center  d-flex">
+  <div class="fill-info p-3 d-flex align-items-center justify-content-center    ">
+    <form action="https://formsubmit.co/7fb90a87a11b2810f6147515225fe792" method="post"
+      class="border-3 border border-dark bg-light w-100 text-center p-lg-5 p-3 m-0" id="myform">
+      <div class="uname d-flex justify-content-center row " placeholder="enter your requirement">
+        <div class="firstName flex-wrap p-0 col-lg-6 col-12 align-items-center  d-flex">
           <div>
             <label for="fname" class=" me-3">First name: <span class="text-danger fw-bold fs-3">*</span></label><br>
           </div>
@@ -57,7 +57,7 @@
           </div>
         </div>
 
-        <div class="lastName p-0 col-6 align-items-center d-flex">
+        <div class="lastName flex-wrap p-0 col-lg-6 col-12 align-items-center d-flex">
           <div>
             <label for="lname" class=" me-3">Last name: <span class="text-danger fw-bold fs-3">*</span></label><br>
           </div>
@@ -67,28 +67,30 @@
         </div>
       </div>
       <br>
-      <div class="mb-3 d-flex" >
+      <div class="mb-3 d-flex flex-wrap">
         <label class="form-label me-3">Enter contact number: <span class="text-danger fw-bold fs-3">*</span> </label>
-        <input type="tel" id="phone" name="phone"  maxlength="10" placeholder="123-45-6788"  required/>
-       
-       
-        
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" maxlength="10"
+          placeholder="123-45-678" required />
+
+
+
       </div>
 
-      <div class="mb-3 text-start"> 
+      <div class="mb-3 text-start">
         <label for="query" class="form-label fs-3 fw-bold ">Enter Message <span
             class="text-danger fw-bold fs-2">*</span></label>
-        <textarea class="form-control" placeholder="Enter your requirements" name="query" id="query" rows="3"  required></textarea>
+        <textarea class="form-control" placeholder="Enter your requirements" name="query" id="query" rows="3"
+          required></textarea>
       </div>
 
       <!-- radio button added  -->
       <div class="radio d-flex justify-content-center align-items-center">
-        <div class="form-check w-25 d-flex">
-          <input class="form-check-input" type="radio" name="gender" id="female" />
+        <div class="form-check d-flex">
+          <input class="form-check-input" type="radio" name="gender" id="female">
           <label class="form-check-label fw-bold px-3" for="gender"> Female </label>
         </div>
-        <div class="form-check w-25 d-flex">
-          <input class="form-check-input" type="radio" name="gender" id="male" />
+        <div class="form-check d-flex">
+          <input class="form-check-input" type="radio" name="gender" id="male">
           <label class="form-check-label fw-bold px-3" for="gender">
             Male
           </label>
