@@ -1,4 +1,8 @@
-<?php
+<html>
+
+<body>
+    welcome
+    <?php
 if ($_SERVER["REQUEST_METHOD"]=="POST"){
     // retrive from data 
     $fname = $_POST["fname"] ;
@@ -10,3 +14,6 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     
 }
 ?>
+</body>
+
+</html>
