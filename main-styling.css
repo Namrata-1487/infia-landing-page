@@ -45,7 +45,6 @@ h1 {
   background-color: #207d70;
   border-radius: 20px;
   align-items: center;
-  width: 40% !important;
 }
 
 #contact .img-fluid,
@@ -158,8 +157,12 @@ h1 {
   background-color: #0b3530;
 }
 
-@media screen and (max-width: 985px) {
+@media screen and (max-width: 480px) {
   .logo {
     width: 50% !important;
+  }
+  #contact,
+  #learn-more {
+    width: 60% !important;
   }
 }
