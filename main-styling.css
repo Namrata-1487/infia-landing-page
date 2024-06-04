@@ -160,6 +160,7 @@ h1 {
   border-radius:20px;
 }
 
+
 @media screen and (max-width: 480px) {
   .logo {
     width: 50% !important;
@@ -167,5 +168,9 @@ h1 {
   #contact,
   #learn-more {
     width: 60% !important;
+  }
+  #myform{
+    width: 100% !important;
+
   }
 }
