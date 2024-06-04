@@ -156,6 +156,9 @@ h1 {
 .section-9 {
   background-color: #0b3530;
 }
+#myform{
+  border-radius:20px;
+}
 
 @media screen and (max-width: 480px) {
   .logo {

@@ -10,7 +10,7 @@ counters.forEach((counter) => {
 
     if (c < target) {
       counter.innerText = `${Math.ceil(c + increment)}`;
-      setTimeout(updateCounter,20);
+      setTimeout(updateCounter, 30);
     } else {
       counter.innerText = target;
     }
@@ -18,3 +18,10 @@ counters.forEach((counter) => {
 
   updateCounter();
 });
+
+function submit() {
+  document.getElementById(myform).submit;
+}
+function reset() {
+  document.getElementById(myform).reset;
+}
