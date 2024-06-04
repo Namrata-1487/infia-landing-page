@@ -1,19 +1,13 @@
-<html>
-
-<body>
-    welcome
-    <?php
-if ($_SERVER["REQUEST_METHOD"]=="POST"){
-    // retrive from data 
-    $fname = $_POST["fname"] ;
-    $lname = $_POST["lname"] ;
-   
-    // display data
-    echo "First Name: ". $fname ." <br> ";
-    echo "Last Name: " . $fname ." <br> ";
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Retrieve form data
+    $fname = $_POST["fname"];
+    $lname = $_POST["fname"];
     
+
+    // Display the submitted data
+    echo "fName: " . $fname . "<br>";
+    echo "lName: " . $lname . "<br>";
+  
 }
 ?>
-</body>
-
-</html>
